@@ -6,7 +6,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args){
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("原型模式测试");
         frame.setLayout(new GridLayout(1, 2));
         Container contentPane = frame.getContentPane();
 
@@ -17,7 +17,7 @@ public class Main {
         contentPane.add(w2);
 
         frame.pack();
-        contentPane.setVisible(true);
+        frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

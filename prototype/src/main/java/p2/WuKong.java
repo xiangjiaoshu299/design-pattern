@@ -5,7 +5,8 @@ import javax.swing.*;
 public class WuKong extends JPanel implements Cloneable {
 
     public WuKong() {
-        this.add(new JLabel(new ImageIcon("src/Wukong.jpg")));
+        System.out.println("加载图片...");
+        this.add(new JLabel(new ImageIcon("src/main/resources/Wukong.jpg")));
     }
 
     @Override

@@ -1,3 +1,12 @@
 prototype/.idea/
 prototype/target/
 prototype/prototype3.iml
+proxy/.idea/
+proxy/target/
+proxy/proxy.iml
+bridge/.idea/
+bridge/target/
+项目模板/src/main/java/util/ReadXml.java
+项目模板/src/main/java/Main.java
+项目模板/pom.xml
+bridge/bridge.iml

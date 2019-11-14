@@ -11,3 +11,6 @@ bridge/target/
 项目模板/pom.xml
 bridge/bridge.iml
 builder/.idea/
+*/.idea
+*/target
+*.iml
